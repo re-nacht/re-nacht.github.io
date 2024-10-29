@@ -4,5 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+![haxor](/haxor.gif){: width="500" height="300" }
+
+<center>Hi 👋, I'm Riley, a Security Researcher. Aspiring world class shitposter. Most of the time, I don't even know what I'm doing, makes people think that I'm a skid, well they're probably right. Skid by the day, skid by the night, skidding skidder skiddiby.</center>
+
+
+![haxorman](/haxorman.gif){: width="100" height="100" }
