@@ -3,7 +3,7 @@ layout: post
 title: 'THM: Agent Sudo | Write-up'
 date: 2024-09-19 13:00:00 00
 categories: [THM]
-tags: [thm, privesc, stego, hash cracking, osint]
+tags: [thm, privilege escalation, steganography, hash cracking, osint]
 comments: false
 ---
 

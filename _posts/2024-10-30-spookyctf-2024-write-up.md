@@ -3,7 +3,7 @@ layout: post
 title: SpookyCTF 2024 | Write-up
 date: '2024-10-30 07:37:13 +0000'
 categories: [CTFs]
-tags: [ctf, stego, cryptography, osint]
+tags: [ctf, steganography, cryptography, osint]
 comments: false
 image: /post-imgs/spookyctf-writeup/SpookyCTF_2024.png
 ---
@@ -57,6 +57,8 @@ This challenge includes a jpg file that we can investigate.
 
 Using strings command, I found a password. Which led me to believe that I can use steghide to gain more info about this picture.
 
+![whispers-in-morse-5](/post-imgs/spookyctf-writeup/whispers-in-morse-5.png)
+
 ![whispers-in-morse-3](/post-imgs/spookyctf-writeup/whispers-in-morse-3.png)
 
 And sure enough I found a "flag.txt" file inside it. With the same password, I extracted the file, and found the flag.
@@ -64,6 +66,16 @@ And sure enough I found a "flag.txt" file inside it. With the same password, I e
 ![whispers-in-morse-4](/post-imgs/spookyctf-writeup/whispers-in-morse-4.png)
 
 <i>NICC{tHe_whIspeRz_iN_Th3_aiR}</i>
+
+### set-your-intentions-right
+
+![set-your-intentions-right](/post-imgs/spookyctf-writeup/set-your-intentions-right.png)
+
+This challenge includes a mp3 file. First thing I did, was to run it on a spectrum analyzer. I used [this](https://academo.org/demos/spectrum-analyzer/) online tool. 
+
+![set-your-intentions-right-2](/post-imgs/spookyctf-writeup/set-your-intentions-right-2.png)
+
+<i>NICC{UR_4SAK3N_D3CISION}</i>
 
 ## <b>crypto</b>
 
@@ -97,7 +109,7 @@ Judging by the flag format, this looks like the last part of a flag. So i tried 
 
 ![well-met-2](/post-imgs/spookyctf-writeup/well-met-2.png)
 
-Combining this with the last part of the flag still left me with a flag that does'nt make any sense. So I tried to look further. Since this is in an id called "spookyflag_part1", I tried searching for a similar case. I ended up finding the second part of the flag.
+Combining this with the last part of the flag still left me with a flag that doesn't make any sense. So I tried to look further. Since this is in an id called "spookyflag_part1", I tried searching for a similar case. I ended up finding the second part of the flag.
 
 ![well-met-3](/post-imgs/spookyctf-writeup/well-met-3.png)
 
@@ -109,3 +121,18 @@ Combining all four parts, I got this.
 
 <i>NICC{StOrIeS_DoNt_MaKe_ThE_cTf_ToO_cTfY_rIgHt?}</i>
 
+## <b>bin</b>
+
+### the-gates-are-closed
+
+![the-gates-are-closed](/post-imgs/spookyctf-writeup/the-gates-are-closed.png)
+
+We were presented with a file called the-gates-are-closed. Using strings command, I took notice of a string that seems to be encoded in base64.
+
+![the-gates-are-closed-2](/post-imgs/spookyctf-writeup/the-gates-are-closed-2.png)
+
+I used [this](https://www.base64decode.org/) online tool to decode it.
+
+![the-gates-are-closed-3](/post-imgs/spookyctf-writeup/the-gates-are-closed-3.png)
+
+<i>NICC{4_R34l_Fl4g}</i>
