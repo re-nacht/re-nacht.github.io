@@ -118,7 +118,4 @@ We're in :)(3). Now, that we're root, we can now access the 2nd flag located in 
 ![mr-robot](/post-imgs/mr-robot-writeup/mrrobot-23.png){: height="100" width="200" }<br>
 ![mr-robot](/post-imgs/mr-robot-writeup/mrrobot-24.png){: height="100" width="200" }<br>
 
-<i><b>Types aggressively, Access granted, Smirks</b></i><br>
-<b>We're in.</b>
-
 ![mr-robot](/post-imgs/mr-robot-writeup/mrrobot-werein.gif){: height="500" width="500" }
