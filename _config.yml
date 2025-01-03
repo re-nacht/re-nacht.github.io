@@ -28,8 +28,8 @@ url: "https://rileysimeon.github.io/"
 github:
   username: rileysimeon # change to your GitHub username
 
-twitter:
-  username: azriel_pwns # change to your Twitter username
+# twitter:
+#   username: # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: janriley.simeon@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://x.com/azriel_pwns # change to your Twitter homepage
+    # change to your Twitter homepage
     - https://github.com/rileysimeon # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
