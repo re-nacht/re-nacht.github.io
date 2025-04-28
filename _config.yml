@@ -16,17 +16,17 @@ timezone:
 
 title: Riley # the main title
 
-tagline: Offensive Security Researcher # it will display as the subtitle
+tagline: Security Researcher # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Hi! I'm Riley, an Offensive Security Researcher.
+  Hi! I'm Riley, a Security Researcher.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://rileysimeon.github.io/"
+url: "https://re-nacht.github.io"
 
 github:
-  username: rileysimeon # change to your GitHub username
+  username: re-nacht # change to your GitHub username
 
 # twitter:
 #   username: # change to your Twitter username
@@ -39,10 +39,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # change to your Twitter homepage
-    - https://github.com/rileysimeon # change to your GitHub homepage
+    - https://github.com/re-nacht # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/jan-riley-simeon-403033268/
+    - https://www.linkedin.com/in/riley-s-403033268/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +98,7 @@ theme_mode: [dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: me.png
+avatar: isana.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
